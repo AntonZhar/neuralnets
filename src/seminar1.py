@@ -8,6 +8,7 @@ def random_matrix(n: int) -> np.array:
     """
     Make (n x n x 3) matrix with a random uniform distribution [0, 255]
     array type must be uint8
+
     :param n: matrix sizeyy
 
     :return: random n x n x 3 matrix
