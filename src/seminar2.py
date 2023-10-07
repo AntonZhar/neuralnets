@@ -10,7 +10,7 @@ def softmax(Z: np.array) -> np.array:
     """
     TODO 1:
     Compute softmax of 2D array along axis -1
-    :param Z: 2D array, shape (N, C)
+    :para m Z: 2D array, shape (N, C)
     :return: softmax 2D array, shape (N, C)
     """
     exps = np.exp(Z)
