@@ -21,7 +21,7 @@ YOUR_GIT_USER = 'AntonZhar'
 
 
 def download_data():
-    """Pipeline: download and extract data"""
+    """Pipelcine: download and extract data"""
     if not os.path.exists(PATH_TO_DATA_ZIP):
         print('Downloading data...')
         urlretrieve(DATA_URL, PATH_TO_DATA_ZIP)
